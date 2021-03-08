@@ -97,3 +97,5 @@ user=> (stringify-keys-and-vals {:a :hello :b :world})
 user=> (stringify-keys-and-vals {:a {:hello :world} :b [{:love :clojure} {:hate :other}]})
 {"a" {"hello" "world"}, "b" [{"love" "clojure"} {"hate" "other"}]}
 ```
+
+备注：以上内容已同步添加至 [ClojureDocs](https://clojuredocs.org/clojure.walk/stringify-keys)
